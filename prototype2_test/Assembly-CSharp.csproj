@@ -61,20 +61,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\script\Boss.cs" />
+    <Compile Include="Assets\script\FruitManager.cs" />
+    <Compile Include="Assets\script\GameObjectPool.cs" />
     <Compile Include="Assets\script\Player.cs" />
-    <Compile Include="Assets\script\SceneManager.cs" />
+    <Compile Include="Assets\script\Scene_Manager.cs" />
+    <Compile Include="Assets\script\UIManager.cs" />
     <None Include="Assets\Shader\Blinn_specular.shader" />
+    <None Include="Assets\Models\Fruit Pack\Shaders\ToonLitTransparent.shader" />
+    <None Include="Assets\Models\Fruit Pack\Shaders\ToonLit.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>X:/_各种资料/程序相关/Unity project/prototype2_test/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>X:/Game_project/Unity_project/prototype2_test/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>X:/_各种资料/程序相关/Unity project/prototype2_test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>X:/Game_project/Unity_project/prototype2_test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>X:/_各种资料/程序相关/Unity project/prototype2_test/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>X:/Game_project/Unity_project/prototype2_test/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>X:/_各种资料/程序相关/Unity project/prototype2_test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>X:/Game_project/Unity_project/prototype2_test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/My_Program/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

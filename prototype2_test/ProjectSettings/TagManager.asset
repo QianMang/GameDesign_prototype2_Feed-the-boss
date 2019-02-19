@@ -6,6 +6,14 @@ TagManager:
   tags:
   - Cube
   - GameScene
+  - FoodParent
+  - apple
+  - banana
+  - kiwi
+  - pear
+  - stawberry
+  - bin
+  - boss
   layers:
   - Default
   - TransparentFX
